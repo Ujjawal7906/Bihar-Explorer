@@ -1,0 +1,155 @@
+ body {
+    background: rgb(16, 24, 41);
+  }
+ 
+  .form-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #172038;
+    border-radius: 16px;
+    padding: 32px;
+    color: #fff;
+  }
+ 
+  .badge-pill {
+    background: #24304f;
+    color: #cfd6e6;
+    font-size: 13px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+ 
+  .form-card h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+ 
+  .form-card p.subtitle {
+    color: #9aa5bd;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+ 
+  .input-group-custom {
+    background: #1f2a47;
+    border: 1px solid #2c3a5e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+  }
+ 
+  .input-group-custom i {
+    color: #7c88a6;
+    margin-right: 12px;
+    width: 16px;
+    text-align: center;
+  }
+ 
+  .input-group-custom input,
+  .input-group-custom select,
+  .input-group-custom textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+  }
+ 
+  .input-group-custom input::placeholder,
+  .input-group-custom textarea::placeholder {
+    color: #7c88a6;
+  }
+ 
+  .input-group-custom select {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #7c88a6;
+    cursor: pointer;
+  }
+ 
+  .input-group-custom.select-wrap {
+    position: relative;
+  }
+ 
+  .input-group-custom.select-wrap::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #7c88a6;
+    position: absolute;
+    right: 16px;
+    font-size: 12px;
+    pointer-events: none;
+  }
+ 
+  .input-group-custom.textarea-wrap {
+    align-items: flex-start;
+  }
+ 
+  .input-group-custom.textarea-wrap i {
+    margin-top: 3px;
+  }
+ 
+  .input-group-custom textarea {
+    resize: vertical;
+    min-height: 90px;
+  }
+ 
+  .form-check-custom {
+    background: #1f2a47;
+    border: 1px solid #2c3a5e;
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+ 
+  .form-check-custom input {
+    margin-right: 10px;
+  }
+ 
+  .form-check-custom label {
+    color: #cfd6e6;
+    font-size: 14px;
+    margin: 0;
+  }
+ 
+  .btn-send {
+    background: #1467ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+ 
+  .btn-send:hover {
+    background: #0f56db;
+    color: #fff;
+  }
+ 
+  .btn-reset {
+    background: #1f2a47;
+    color: #cfd6e6;
+    border: 1px solid #2c3a5e;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 500;
+    width: 100%;
+  }
+ 
+  .btn-reset:hover {
+    background: #29365a;
+    color: #fff;
+  }

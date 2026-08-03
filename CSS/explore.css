@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+scrollbar-width: none;
+}
+
+.navbar {
+  padding: 0.3rem 0;
+  background-color: rgb(3, 7, 18);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: orange;
+}
+
+
+header{
+     /* height: 300px; */
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(32, 97, 255, 0.85) 0%,
+            rgba(32, 97, 255, 0.55) 40%,
+            rgba(26, 175, 119, 0.55) 100%
+        ),
+        url(../Images/explorebg.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+  margin-top: 70px;
+}
+
+.header p{
+  margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.header p span{
+  color: rgb(139, 178, 232);
+}
+
+.header h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+/* ----------------------------------main------------------------------- */
+main{
+  background-color: rgb(16, 24, 41);
+}
+
+.destinationCard img {
+  height: 230px;
+}
+
+/* -----------------------------------map----------------------------------- */
+
+#map{
+    width:100%;
+    height:400px;
+    border-radius:15px;
+}
+
+/* ---------------------------------FAQs-------------------------- */
+
+.faq{
+  margin-bottom: 10px;
+}
+
+.faq h2{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+
+footer {
+  height: 100%;
+  background-color: rgb(3, 7, 18);
+}
+
+.footerLogo p {
+  color: rgb(76, 115, 113);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-left: 20px;
+}
+
+.quickLinks {
+  margin-top: 35px;
+}
+
+.quickLinks h4 {
+  color: white;
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
+.quickLinks ul {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.quickLinks ul li {
+  line-height: 30px;
+}
+
+.quickLinks ul li img {
+  color: rgb(76, 115, 113);
+  height: 20px;
+  margin-right: 15px;
+  padding: 0px;
+}
+
+.quickLinks ul li a {
+  text-decoration: none;
+  color: rgb(76, 115, 113);
+  font-weight: 600;
+}
+
+.quickLinks ul li a:hover {
+  color: #ffc107;
+}
+
+.icons img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.developer h4 {
+  color: white;
+}
+
+.developer h5 {
+  color: rgb(76, 115, 113);
+}
+
+.developer h6 {
+  color: wheat;
+}
+
+.developer a {
+  text-decoration: none;
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.developer a img {
+  height: 20px;
+}
+
+hr{
+  color: white;
+}
+
+.copyright{
+  height: 40px;
+}
+
+.copyright p{
+  color: white;
+}

@@ -1,0 +1,132 @@
+@media (max-width: 991px) {
+  .navbar-collapse {
+    padding-top: 0.8rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .btn-primary {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-brand img {
+    width: 110px;
+  }
+
+  .headText h1 {
+    font-size: 55px;
+    margin-top: 20px;
+    font-family: inherit;
+  }
+
+  .headText p {
+    font-size:22px;
+    font-weight: 550;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .destinationContent h1{
+  font-size:45px;
+  font-weight: 700;
+}
+
+.destinationContent p{
+  
+  font-size: 19px;
+}
+
+.biharGlanceContent h1{
+  color: white;
+  font-size:40px;
+  font-weight: 800;
+}
+
+.biharGlanceContent p{
+  margin-top: 17px;
+  color: white;
+  font-size: 15px;
+}
+
+.glanceCard img{
+  height: 60px;
+}
+
+.glanceCard h4{
+  font-size: 3rem;
+}
+
+.glanceCard p{
+  font-size: 0.9rem;
+}
+
+.chhathPuja h3{
+  font-size: 2.5rem;
+}
+
+/* ------------------------------gallary--------------------------------- */
+
+.gallary h3{
+   font-size: 2.5rem;
+}
+
+.images img{
+  height: 200px;
+}
+
+/* ---------------------------explore--------------------------------- */
+
+
+.header h1{
+  font-size: 3rem;
+}
+
+.faq h2{
+  font-size: 1.5rem;
+}
+
+/* --------------------------------------heritage------------------------------- */
+.history h2{
+    
+    font-size: 2rem;
+}
+
+/* --------------------------------timeline------------------- */
+
+.timeline::after {
+    left: 25px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+
+  .left,
+  .right {
+    left: 0;
+  }
+
+  .timeline-item::after {
+    left: 14px;
+  }
+
+  /* ----------------------------------------famoustemple------------------------------ */
+
+  .famousTemple img{
+  height: 120px;
+}
+
+.foodCard img{
+  height: 180px;
+}
+.foodCard h3{
+  font-size: 1.4rem;
+}
+}
