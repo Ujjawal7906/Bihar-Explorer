@@ -1,0 +1,18 @@
+{
+  "name": "bihar-explorer",
+  "version": "1.0.0",
+  "description": "Discover the rich heritage, ancient temples, historical monuments, festivals, and tourist attractions of Bihar",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "bihar",
+    "tourism",
+    "heritage"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  }
+}
